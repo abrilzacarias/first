@@ -1,19 +1,20 @@
 <!DOCTYPE html> 
 <html>
     <head>
-        
+        <link rel="stylesheet" href="css.css">
         <meta charset="utf-8" />
-        <title>dibujando con canvas</title>
+        <title>Dibujando con Canvas</title>
     </head>
     <body>
-        <h1>dibujo en canvas</h1>
-        <p> cuantas lineas quieres? <br> 
-        <input type="text"  id="texto_lineas"/>
-        <input type="button" value="Vamos!" id="botoncito"/>
-        </p> 
-        
+        <div class="contenido">
+        <h1>Dibujo en Canvas</h1>
+        <p id="cantidad"> ¿Cuántas lineas quieres?</p> 
+        <div class="botones"> 
+            <input type="text"  id="texto_lineas"/>
+            <input type="button" value="Vamos!" id="botoncito"/>
+        </div>
         <canvas width ="300" height="300" id="dibujito"></canvas>
-        <p> asi queda el dibujo </p>
+    </div> 
         <script src="dibujo.js"></script>
     </body>
 </html>

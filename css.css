@@ -1,0 +1,16 @@
+body {
+    background-color:royalblue;
+}
+
+.contenido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.botones {
+    padding: 2px
+}
+#dibujito {
+    border:black;
+    border-radius: 5px;
+}
